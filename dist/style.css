@@ -1,2 +1,55 @@
-.container {
-  color: blue; }
+.parent {
+  display: flex;
+  justify-content: space-around; }
+  .parent nav a {
+    margin-left: 15px;
+    color: #939393;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none; }
+  .parent nav i {
+    margin-left: 15px;
+    color: #735CFF; }
+  .parent .main {
+    color: #000; }
+  .parent button {
+    background: none;
+    border: none; }
+  .parent .butt-rect {
+    display: inline-flex;
+    width: 130px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #735CFF;
+    color: #FFF;
+    flex-shrink: 0; }
+    .parent .butt-rect p {
+      margin: auto;
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 12px; }
+  .parent .box-button {
+    width: 227px;
+    height: 160px;
+    background-color: #FFF;
+    border-radius: 14px;
+    border: 1px solid #000;
+    margin-left: 360px;
+    margin-top: 10px;
+    text-align: center; }
+    .parent .box-button .login {
+      margin-top: 25px;
+      width: 162px;
+      height: 50px;
+      border: 1px solid #000;
+      background-color: #000;
+      color: #FFF;
+      border-radius: 5px; }
+    .parent .box-button .sign-up {
+      margin-top: 8px;
+      width: 162px;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid #000; }
