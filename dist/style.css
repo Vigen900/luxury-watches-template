@@ -1,6 +1,7 @@
 .parent {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #f9fafe; }
   .parent nav a {
     margin-left: 15px;
     color: #939393;
@@ -35,7 +36,6 @@
     height: 160px;
     background-color: #FFF;
     border-radius: 14px;
-    border: 1px solid #000;
     margin-left: 360px;
     margin-top: 10px;
     text-align: center; }
@@ -53,3 +53,110 @@
       height: 50px;
       border-radius: 5px;
       border: 1px solid #000; }
+
+.group {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafe; }
+  .group .group-right h1 {
+    color: #000;
+    font-family: fantasy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    width: 230px;
+    margin-left: 150px;
+    margin-top: -50px; }
+  .group h3 {
+    transform: scale(-1.3) translate(83%, 100px); }
+  .group i {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px; }
+  .group p {
+    width: 557px;
+    height: 74px;
+    margin-left: 150px;
+    color: #939393;
+    font-family: initial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; }
+  .group .butt-rect {
+    display: inline-flex;
+    width: 130px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #735CFF;
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 150px; }
+    .group .butt-rect p {
+      margin: auto;
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 12px;
+      color: #FFF;
+      text-align: center;
+      margin-top: 19px; }
+  .group .group-left {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -445px; }
+
+.design-your-watch {
+  text-align: center;
+  margin-top: 50px; }
+  .design-your-watch h1 {
+    color: black;
+    font-family: fantasy;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; }
+  .design-your-watch img {
+    margin-top: -120px; }
+  .design-your-watch .text-1 {
+    margin-right: 60rem; }
+  .design-your-watch .text-1-child {
+    width: 113px;
+    height: 80px;
+    margin-left: 195px;
+    color: #939393;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; }
+  .design-your-watch .text-2 {
+    margin-right: 60rem;
+    margin-top: -220px; }
+  .design-your-watch .text-2-child {
+    width: 165px;
+    height: 80px;
+    margin-left: 195px;
+    color: #939393;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; }
+  .design-your-watch .text-3 {
+    margin-left: 50rem;
+    margin-top: -22rem; }
+  .design-your-watch .text-3-child {
+    width: 150px;
+    height: 80px;
+    margin-left: 68.5rem;
+    color: #939393;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; }
