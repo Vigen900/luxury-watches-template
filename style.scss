@@ -68,6 +68,8 @@ $main-font: Poppins;
     }
 }
 .group{
+    width: 1496px;
+    height: 455px;
     display: flex;
     flex-direction: column;
     background-color: $main-color2;
@@ -139,6 +141,9 @@ $main-font: Poppins;
         font-weight: 400;
         line-height: 25px;
     }
+    .main-h1{
+        text-align: center;
+    }
     img{
         padding-left: 100px;
     }
@@ -152,6 +157,9 @@ $main-font: Poppins;
         font-weight: 400;
         line-height: 24px;
     }
+    .text-2{
+        padding-top: 180px;
+    }
     .text-2-child{   
         width: 165px;
         color: #939393;
@@ -164,7 +172,7 @@ $main-font: Poppins;
     }
     .text-3{
         float: right;
-        margin-top: 300px;
+        margin-top: 170px;
     }
     .text-3-child{
         width: 150px;
@@ -192,7 +200,7 @@ $main-font: Poppins;
     background-color: $main-color;
     h1{
         font-family: fantasy;
-        padding: 90px;
+        padding: 50px;
     }
 }
 .number{
@@ -223,7 +231,7 @@ $main-font: Poppins;
     width: 208px;
     height: 55px;
     border-radius: 5px;
-    margin-top: 70px;
+    margin-top: 50px;
     font-family: $main-font;
     font-size: 14px;
     font-style: normal;
@@ -273,15 +281,13 @@ $main-font: Poppins;
     }
 }
 .list-watches{
-    width: 1496px;
-    height: 5066px;
     background-color: #FFF;
     h1{
         font-family: fantasy;
-        margin-left: 80px;
+        margin-left: 75px;
     }
-    p{
-        text-align: center;
+    .text-list{
+        margin-left: 75px;
         color: #939393;
         font-family: $main-font;
         font-size: 13px;
@@ -296,11 +302,21 @@ $main-font: Poppins;
         gap: 84px;
         h5{
             text-align: center;
+            font-size: 20px;
+        }
+        p{
+            text-align: center;
+            color: #939393;
+            font-family: $main-font;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px;
         }
     }
 }
 .half-page-watches h5{
-    margin-left: 142px;
+    margin-left: 123px;
 }
 .arrow{
     display: flex;
@@ -341,11 +357,28 @@ $main-font: Poppins;
     background-image: url("../img/Group 760.png");
     width: 1496px;
     height: 442px;
+    text-align: center;
     h1{
         margin-top: 50px;
-    }
-    .text-4{
+        color: #FFF;
         text-align: center;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        text-transform: capitalize;
+        width: 730px;
+        padding-left: 365px;
+    }
+    span{
+        color: #FFF;
+        font-family: $main-font;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px;
+        margin-top: 50px;
     }
 }
 .group ul{
@@ -357,5 +390,64 @@ $main-font: Poppins;
         display: inline-block;
         margin-top: 50px;
         margin-left: 22px;
+    }
+}
+.inputes{
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 5px;
+    ::placeholder{
+        font-size: 14px;
+        color: #939393;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+        padding: 10px;
+    }
+}
+.sign-up-btn{
+    margin-top: 50px;
+    width: 160px;
+    height: 55px;
+    color: #FFF;
+    background-color: #000;
+}
+.text-4{
+    height: 220px;
+    margin-top: 70px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    h1{
+        font-size: 60px;
+    }
+}
+.end{
+    width: 1496px;
+    height: 50px;
+    background: #F9FAFE;
+    p{
+        color: #939393;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        padding-top: 19px;
+    }
+}
+
+// new page
+
+.parent{
+    
+    .nav-bar{
+        display: contents;
     }
 }

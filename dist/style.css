@@ -55,6 +55,8 @@
       border: 1px solid #000; }
 
 .group {
+  width: 1496px;
+  height: 455px;
   display: flex;
   flex-direction: column;
   background-color: #f9fafe; }
@@ -117,6 +119,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 25px; }
+  .design-your-watch .main-h1 {
+    text-align: center; }
   .design-your-watch img {
     padding-left: 100px; }
   .design-your-watch .text-1-child {
@@ -128,6 +132,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; }
+  .design-your-watch .text-2 {
+    padding-top: 180px; }
   .design-your-watch .text-2-child {
     width: 165px;
     color: #939393;
@@ -139,7 +145,7 @@
     line-height: 24px; }
   .design-your-watch .text-3 {
     float: right;
-    margin-top: 300px; }
+    margin-top: 170px; }
   .design-your-watch .text-3-child {
     width: 150px;
     color: #939393;
@@ -163,7 +169,7 @@
   background-color: #735CFF; }
   .text-area h1 {
     font-family: fantasy;
-    padding: 90px; }
+    padding: 50px; }
 
 .number {
   display: flex;
@@ -190,7 +196,7 @@
   width: 208px;
   height: 55px;
   border-radius: 5px;
-  margin-top: 70px;
+  margin-top: 50px;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -234,14 +240,12 @@
     height: 55px; }
 
 .list-watches {
-  width: 1496px;
-  height: 5066px;
   background-color: #FFF; }
   .list-watches h1 {
     font-family: fantasy;
-    margin-left: 80px; }
-  .list-watches p {
-    text-align: center;
+    margin-left: 75px; }
+  .list-watches .text-list {
+    margin-left: 75px;
     color: #939393;
     font-family: Poppins;
     font-size: 13px;
@@ -254,10 +258,19 @@
     margin-top: 70px;
     gap: 84px; }
     .list-watches .imges h5 {
-      text-align: center; }
+      text-align: center;
+      font-size: 20px; }
+    .list-watches .imges p {
+      text-align: center;
+      color: #939393;
+      font-family: Poppins;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px; }
 
 .half-page-watches h5 {
-  margin-left: 142px; }
+  margin-left: 123px; }
 
 .arrow {
   display: flex;
@@ -294,11 +307,28 @@
   margin-top: 200px;
   background-image: url("../img/Group 760.png");
   width: 1496px;
-  height: 442px; }
+  height: 442px;
+  text-align: center; }
   .signup-end h1 {
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: capitalize;
+    width: 730px;
+    padding-left: 365px; }
+  .signup-end span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
     margin-top: 50px; }
-  .signup-end .text-4 {
-    text-align: center; }
 
 .group ul {
   display: flex;
@@ -309,3 +339,53 @@
     display: inline-block;
     margin-top: 50px;
     margin-left: 22px; }
+
+.inputes {
+  font-family: inherit;
+  font-size: 25px;
+  border-radius: 5px; }
+  .inputes ::placeholder {
+    font-size: 14px;
+    color: #939393;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    padding: 10px; }
+
+.sign-up-btn {
+  margin-top: 50px;
+  width: 160px;
+  height: 55px;
+  color: #FFF;
+  background-color: #000; }
+
+.text-4 {
+  height: 220px;
+  margin-top: 70px;
+  text-align: center;
+  color: black;
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; }
+  .text-4 h1 {
+    font-size: 60px; }
+
+.end {
+  width: 1496px;
+  height: 50px;
+  background: #F9FAFE; }
+  .end p {
+    color: #939393;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    padding-top: 19px; }
+
+.parent .nav-bar {
+  display: contents; }
