@@ -109,7 +109,6 @@
     margin-top: -445px; }
 
 .design-your-watch {
-  text-align: center;
   margin-top: 50px; }
   .design-your-watch h1 {
     color: black;
@@ -119,13 +118,9 @@
     font-weight: 400;
     line-height: 25px; }
   .design-your-watch img {
-    margin-top: -120px; }
-  .design-your-watch .text-1 {
-    margin-right: 60rem; }
+    padding-left: 100px; }
   .design-your-watch .text-1-child {
     width: 113px;
-    height: 80px;
-    margin-left: 195px;
     color: #939393;
     text-align: right;
     font-family: Poppins;
@@ -133,13 +128,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; }
-  .design-your-watch .text-2 {
-    margin-right: 60rem;
-    margin-top: -220px; }
   .design-your-watch .text-2-child {
     width: 165px;
-    height: 80px;
-    margin-left: 195px;
     color: #939393;
     text-align: right;
     font-family: Poppins;
@@ -148,12 +138,10 @@
     font-weight: 400;
     line-height: 24px; }
   .design-your-watch .text-3 {
-    margin-left: 50rem;
-    margin-top: -22rem; }
+    float: right;
+    margin-top: 300px; }
   .design-your-watch .text-3-child {
     width: 150px;
-    height: 80px;
-    margin-left: 68.5rem;
     color: #939393;
     text-align: right;
     font-family: Poppins;
@@ -161,6 +149,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; }
+  .design-your-watch .features {
+    float: left; }
+  .design-your-watch .main {
+    min-height: 550px;
+    padding: 140px; }
 
 .text-area {
   width: 1496px;
@@ -174,16 +167,24 @@
 
 .number {
   display: flex;
-  margin-left: 216px; }
+  padding-inline: 418px;
+  width: 10px; }
   .number p {
-    margin-left: 200px;
     margin-top: -62px;
     color: #FFF;
     font-family: "Space Age";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; }
+    line-height: 25px;
+    margin-right: 188px; }
+    .number p span {
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; }
 
 .number-butt {
   width: 208px;
@@ -290,9 +291,21 @@
     margin-top: -300px; }
 
 .signup-end {
-  margin-top: 200px; }
-  .signup-end img {
-    width: 1496px;
-    height: 442px; }
+  margin-top: 200px;
+  background-image: url("../img/Group 760.png");
+  width: 1496px;
+  height: 442px; }
   .signup-end h1 {
-    margin-top: 20px; }
+    margin-top: 50px; }
+  .signup-end .text-4 {
+    text-align: center; }
+
+.group ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; }
+  .group ul .follow-us {
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 22px; }

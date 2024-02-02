@@ -1,6 +1,7 @@
 
 $main-color:#735CFF;
 $main-color2: rgba(249, 250, 254, 1);
+$main-font: Poppins;
 .parent {
     display: flex;
     justify-content: space-around;
@@ -8,7 +9,7 @@ $main-color2: rgba(249, 250, 254, 1);
     nav a{
         margin-left: 15px;
         color: #939393;
-        font-family: Poppins;
+        font-family: $main-font;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -129,7 +130,6 @@ $main-color2: rgba(249, 250, 254, 1);
     }
 }
 .design-your-watch{
-    text-align: center;
     margin-top: 50px;
     h1{
         color: rgba(0, 0, 0, 1);
@@ -140,54 +140,48 @@ $main-color2: rgba(249, 250, 254, 1);
         line-height: 25px;
     }
     img{
-        margin-top: -120px;
-    }
-    .text-1{
-        margin-right: 60rem;
+        padding-left: 100px;
     }
     .text-1-child{
         width: 113px;
-        height: 80px;
-        margin-left: 195px;
         color: #939393;
         text-align: right;
-        font-family: Poppins;
+        font-family: $main-font;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
     }
-    .text-2{
-        margin-right: 60rem;
-        margin-top: -220px;
-    }
-    .text-2-child{
+    .text-2-child{   
         width: 165px;
-        height: 80px;
-        margin-left: 195px;
         color: #939393;
         text-align: right;
-        font-family: Poppins;
+        font-family: $main-font;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
     }
     .text-3{
-        margin-left: 50rem;
-        margin-top: -22rem;
+        float: right;
+        margin-top: 300px;
     }
     .text-3-child{
         width: 150px;
-        height: 80px;
-        margin-left: 68.5rem;
         color: #939393;
         text-align: right;
-        font-family: Poppins;
+        font-family: $main-font;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+    }
+    .features{
+        float: left;
+    }
+    .main{
+        min-height: 550px;
+        padding: 140px;
     }
 }
 .text-area{
@@ -203,9 +197,10 @@ $main-color2: rgba(249, 250, 254, 1);
 }
 .number{
     display: flex;
-    margin-left: 216px;
+    
+    padding-inline: 418px;
+    width: 10px;
     p{
-        margin-left: 200px;
         margin-top: -62px;
         color: #FFF;
         font-family: "Space Age";
@@ -213,6 +208,15 @@ $main-color2: rgba(249, 250, 254, 1);
         font-style: normal;
         font-weight: 400;
         line-height: 25px; 
+        margin-right: 188px;
+        span{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
     }
 }
 .number-butt{
@@ -220,7 +224,7 @@ $main-color2: rgba(249, 250, 254, 1);
     height: 55px;
     border-radius: 5px;
     margin-top: 70px;
-    font-family: Poppins;
+    font-family: $main-font;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -279,7 +283,7 @@ $main-color2: rgba(249, 250, 254, 1);
     p{
         text-align: center;
         color: #939393;
-        font-family: Poppins;
+        font-family: $main-font;
         font-size: 13px;
         font-style: normal;
         font-weight: 400;
@@ -321,7 +325,7 @@ $main-color2: rgba(249, 250, 254, 1);
     }
     p{
         width: 330px;
-        font-family: Poppins;
+        font-family: $main-font;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -334,13 +338,24 @@ $main-color2: rgba(249, 250, 254, 1);
 }
 .signup-end{
     margin-top: 200px;
-    background-image: url(./img/Group\ 760.png);
+    background-image: url("../img/Group 760.png");
     width: 1496px;
     height: 442px;
     h1{
-        margin-top: 20px;
+        margin-top: 50px;
     }
     .text-4{
         text-align: center;
+    }
+}
+.group ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    .follow-us{
+        transform: rotate(-90deg);
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 22px;
     }
 }
